@@ -1,0 +1,26 @@
+{
+  "id": "io.sscotth.cloudronznc",
+  "title": "ZNC IRC Bouncer",
+  "author": "Scott Humphries <cloudron@sscotth.io>",
+  "description": "file://DESCRIPTION.md",
+  "changelog": "file://CHANGELOG",
+  "tagline": "ZNC is an IRC network bounce or proxy service that remains persistently connected to your preferred IRC networks and channels.",
+  "version": "0.1.0",
+  "healthCheckPath": "/",
+  "httpPort": 8000,
+  "addons": {
+    "localstorage": {}
+  },
+  "manifestVersion": 1,
+  "website": "http://znc.in",
+  "contactEmail": "cloudron@sscotth.io",
+  "icon": "file://icon_256.png",
+  "tags": [
+    "znc",
+    "irc"
+  ],
+  "mediaLinks": [
+    "https://i.imgur.com/j1n9w8U.png",
+    "https://i.imgur.com/0yjJkKw.png"
+  ]
+}
