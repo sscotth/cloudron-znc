@@ -9,12 +9,25 @@
 // Also check http://en.znc.in/wiki/Configuration
 
 Version = 1.6.3
-<Listener l>
-	Port = 8000
+
+<Listener irc>
+	AllowIRC = true
+	AllowWeb = false
 	IPv4 = true
 	IPv6 = true
+	Port = 6697
+	SSL = true
+</Listener>
+
+<Listener web>
+	AllowIRC = false
+	AllowWeb = true
+	IPv4 = true
+	IPv6 = true
+	Port = 8000
 	SSL = false
 </Listener>
+
 LoadModule = webadmin
 
 <User __user__>

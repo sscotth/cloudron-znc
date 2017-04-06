@@ -6,6 +6,10 @@ echo "Setting up data directory for ZNC"
 mkdir -p /app/data/configs
 chown -R cloudron:cloudron /app/data
 
+echo Generates a pemfile for znc to use with SSL in the specified directory
+echo "Generating a pemfile for ZNC to use for SSL in the specified directory"
+/usr/bin/znc -pd /app/data
+
 echo "Generating password and hash for ZNC default user"
 default_user=admin
 default_password=changeme

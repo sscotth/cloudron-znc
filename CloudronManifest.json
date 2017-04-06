@@ -5,7 +5,7 @@
   "description": "file://DESCRIPTION.md",
   "changelog": "file://CHANGELOG",
   "tagline": "ZNC is an IRC network bounce or proxy service that remains persistently connected to your preferred IRC networks and channels.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "healthCheckPath": "/",
   "httpPort": 8000,
   "addons": {
@@ -22,5 +22,12 @@
   "mediaLinks": [
     "https://i.imgur.com/j1n9w8U.png",
     "https://i.imgur.com/0yjJkKw.png"
-  ]
+  ],
+  "tcpPorts": {
+    "ZNC_PORT": {
+      "title": "ZNC Port",
+      "description": "ZNC Port",
+      "defaultValue": 6697
+    }
+  }
 }
