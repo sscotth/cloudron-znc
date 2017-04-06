@@ -29,5 +29,6 @@
       "description": "ZNC Port",
       "defaultValue": 6697
     }
-  }
+  },
+  "postInstallMessage": "file://POSTINSTALL.md"
 }
