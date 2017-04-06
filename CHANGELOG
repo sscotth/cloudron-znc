@@ -11,3 +11,6 @@
 [0.1.3]
 * Bug fixes
 * Automatically update default IRC port based on input during installation
+
+[0.1.4]
+* Randomize default Nick, AltNick, Ident, and RealName

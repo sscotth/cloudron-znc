@@ -33,10 +33,10 @@ LoadModule = webadmin
 <User __user__>
 	Pass       = sha256#__hash__#__salt__#
 	Admin      = true
-	Nick       = nick
-	AltNick    = altnick
-	Ident      = ident
-	RealName   = realname
+	Nick       = __nick__
+	AltNick    = __altnick__
+	Ident      = __ident__
+	RealName   = __realname__
 	LoadModule = chansaver
 	LoadModule = controlpanel
 
