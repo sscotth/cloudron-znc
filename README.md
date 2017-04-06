@@ -10,7 +10,7 @@ ZNC is an IRC network bounce or proxy service that remains persistently connecte
 
 ### Web
 
-https://__yourcloudronserver__/#/appstore/io.sscotth.cloudronznc?version=0.1.3
+[https://__yourcloudronserver__/#/appstore/io.sscotth.cloudronznc?version=0.1.3](https://__yourcloudronserver__/#/appstore/io.sscotth.cloudronznc?version=0.1.3)
 
 During the install, you will be asked for a "ZNC Port" number. This will be the port that you will use to connect with your IRC client.
 
