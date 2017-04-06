@@ -15,7 +15,7 @@ Version = 1.6.3
 	AllowWeb = false
 	IPv4 = true
 	IPv6 = true
-	Port = 6697
+	Port = __ZNC_PORT__
 	SSL = true
 </Listener>
 
