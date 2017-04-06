@@ -39,4 +39,14 @@ LoadModule = webadmin
 	RealName   = realname
 	LoadModule = chansaver
 	LoadModule = controlpanel
+
+	<Network freenode>
+		LoadModule = simple_away
+		Server     = chat.freenode.net +6697
+		BindHost   = 0.0.0.0
+
+		<Chan #cloudron>
+		</Chan>
+	</Network>
+
 </User>
