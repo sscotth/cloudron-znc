@@ -1,3 +1,9 @@
 [0.1.0]
 * Initial testing version
 * ZNC 1.6.3
+
+[0.1.1]
+* Use secondary port for IRC
+
+[0.1.2]
+* Add default network
