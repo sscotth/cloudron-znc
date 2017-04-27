@@ -14,3 +14,6 @@
 
 [0.1.4]
 * Randomize default Nick, AltNick, Ident, and RealName
+
+[0.1.5]
+* Shorten random default nicknames
