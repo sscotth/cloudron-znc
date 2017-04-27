@@ -15,8 +15,8 @@ if ! [ -f /app/data/configs/znc.conf ]; then
   rand_salt=$(pwgen -1cns 20)
   rand_hash="$(echo -n ${default_password}${rand_salt} | shasum -a 256 | awk '{print $1}')"
 
-  rand_nick=$(pwgen -sv01 16)
-  rand_altnick=$(pwgen -sv01 16)
+  rand_nick=$(pwgen -sv01 10)
+  rand_altnick=$(pwgen -sv01 10)
   rand_ident=$(pwgen -sv01 9)
   rand_realname=$(pwgen -sv01 16)
 
